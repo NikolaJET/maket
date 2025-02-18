@@ -305,9 +305,9 @@ button{
     }
 
     .main-nav__elem--web:hover{
-    border: 2px solid #b8ffec;
-    background-color: #ffffff;
-    border-radius: 6px;
+        border: 2px solid #b8ffec;
+        background-color: #ffffff;
+        border-radius: 6px;
     } 
 
     .main-info-box{
