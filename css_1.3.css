@@ -1,20 +1,26 @@
 @font-face {
-    font-family: 'TT Lakes';
-    src: url('./maket/fonts/TTLakesCompressed-Regular.woff') format('woff');
+    font-family: 'TT Lakes Regular';
+    src: url('./resources/fonts/TTLakes-Regular.eot');
+    src: url('./resources/fonts/TTLakes-Regular.woff') format('woff'),
+    url('./resources/fonts/TTLakes-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+    }
 
 @font-face {
     font-family: 'TT Lakes Bold';
-    src: url('./maket/fonts/TTLakes-Bold.woff') format('woff');
+    src: url('./resources/fonts/TTLakes-Bold.eot');
+    src: url('./resources/fonts/TTLakes-Bold.woff') format('woff'),
+    url('./resources/fonts/TTLakes-Bold.ttf') format('truetype');
     font-weight: 600;
     font-style: bold;
 }
 
 @font-face {
     font-family: 'TT Lakes Medium';
-    src: url('./maket/fonts/TTLakes-Medium.woff') format('woff');
+    src: url('./resources/fonts/TTLakes-Medium.eot');
+    src: url('./resources/fonts/TTLakes-Medium.woff') format('woff'),
+    url('./resources/fonts/TTLakes-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -32,7 +38,7 @@ ul,li,button,a,img,h1{
 }
 
 body {
-    font-family: 'TT Lakes';
+    font-family: 'TT Lakes Regular';
 }
 
 .tab,.main-info__text--tab,.main-info__text--web,.info-img--tab,.info-img--web,.header-nav__icon-btn--text-web,.main-nav__elem--web{
@@ -85,7 +91,7 @@ button{
 
 .main-title{
     position: relative;
-    font-family: "TT Lakes Bold";
+    font-family: 'TT Lakes Bold';
     font-size: 28px;
     text-align: left;
     margin-left: 16px;
@@ -267,7 +273,7 @@ button{
     }
 
     .header-nav__icon-btn>span{
-        font-family: "TT Lakes Medium";
+        font-family: 'TT Lakes Medium';
         white-space: nowrap;
         font-size: 16px;
     }
@@ -298,7 +304,7 @@ button{
         border: 2px solid #b8ffec;
         background-color: #ffffff;
         border-radius: 6px;
-    } 
+    }
 
     .main-info-box{
         align-items: flex-start;
