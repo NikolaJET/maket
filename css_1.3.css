@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'TT Lakes';
-    src: url(../fonts/TTLakesCompressed-Regular.eot);
-    src: url(../onts/TTLakesCompressed-Regular.eot?#iefix) format('embedded-opentype'),
-        url(../fonts/TTLakesCompressed-Regular.woff) format('woff'),
-        url(../fonts/TTLakesCompressed-Regular.ttf) format('truetype');
+    src: url(./../fonts/TTLakesCompressed-Regular.eot);
+    src: url(./../onts/TTLakesCompressed-Regular.eot?#iefix) format('embedded-opentype'),
+        url(./../fonts/TTLakesCompressed-Regular.woff) format('woff'),
+        url(./../fonts/TTLakesCompressed-Regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
