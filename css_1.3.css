@@ -1,32 +1,20 @@
 @font-face {
     font-family: 'TT Lakes';
-    src: url('./maket/fonts/TTLakesCompressed-Regular.eot');
-    src: url('./maket/fonts/TTLakesCompressed-Regular.eot?#iefix') format('embedded-opentype'),
-        url('./maket/fonts/TTLakesCompressed-Regular.woff') format('woff'),
-        url('./maket/fonts/TTLakesCompressed-Regular.woff2') format('woff2'),
-        url('./maket/fonts/TTLakesCompressed-Regular.ttf') format('truetype');
+    src: url('./maket/fonts/TTLakesCompressed-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TT Lakes Bold';
-    src: url('./maket/fonts/TTLakes-Bold.eot');
-    src: url('./maket/fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
-        url('./maket/fonts/TTLakes-Bold.woff') format('woff'),
-        url('./maket/fonts/TTLakes-Bold.woff2') format('woff2'),
-        url('./maket/fonts/TTLakes-Bold.ttf') format('truetype');
+    src: url('./maket/fonts/TTLakes-Bold.woff') format('woff');
     font-weight: 600;
     font-style: bold;
 }
 
 @font-face {
     font-family: 'TT Lakes Medium';
-    src: url('./maket/fonts/TTLakes-Medium.eot');
-    src: url('./maket/fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
-        url('./maket/fonts/TTLakes-Medium.woff') format('woff'),
-        url('./maket/fonts/TTLakes-Medium.woff2') format('woff2'),
-        url('./maket/fonts/TTLakes-Medium.ttf') format('truetype');
+    src: url('./maket/fonts/TTLakes-Medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
